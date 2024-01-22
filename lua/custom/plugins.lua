@@ -19,7 +19,7 @@ local plugins = {
     end
   },
   {
-    "jay-babu/mason-nvim-dap.nvim",
+    "nvimtools/none-ls.nvim",
     event = "VeryLazy",
     dependencies = {
       "williamboman/mason.nvim",
