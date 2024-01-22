@@ -19,7 +19,7 @@ local plugins = {
     end
   },
   {
-    "nvimtools/none-ls.nvim",
+    "jay-babu/mason-nvim-dap.nvim",
     event = "VeryLazy",
     dependencies = {
       "williamboman/mason.nvim",
@@ -36,7 +36,7 @@ local plugins = {
     end
   },
   {
-    "jose-elias-alvarez/null-ls.nvim",
+    "nvimtools/none-ls.nvim",
     event = "VeryLazy",
     opts = function()
       return require "custom.configs.null-ls"
